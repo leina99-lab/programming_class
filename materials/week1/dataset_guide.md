@@ -139,18 +139,6 @@ print(f"데이터 크기: {df_airbnb.shape}")
 df_airbnb.head()
 ```
 
-### 교수자 사전 준비(Instructor Preparation)
-
-Kaggle에서 데이터를 다운로드하여 **수업 전용 Google Drive 공유 폴더**에 업로드해 두면,
-학생들이 Kaggle 계정 없이도 바로 사용할 수 있다.
-
-1. https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data 접속
-2. "Download" 버튼 클릭 → `AB_NYC_2019.csv` 다운로드
-3. Google Drive 수업 폴더에 업로드
-4. 학생에게 공유 링크 제공
-
----
-
 ## 6주차: 심부전증(Heart Failure) 예측
 
 ### 출처(Source)
@@ -341,29 +329,13 @@ LLM API는 별도의 데이터셋이 아니라 API 키가 필요하다.
 
 ---
 
-## 교수자용 사전 준비 체크리스트(Instructor Checklist)
-
-### 학기 시작 전 1회 수행
-
-- [ ] Kaggle 계정 생성 (https://www.kaggle.com)
-- [ ] 아래 5개 데이터셋 다운로드:
-  - [ ] `AB_NYC_2019.csv` (에어비앤비)
-  - [ ] `heart.csv` (심부전증)
-  - [ ] `games.csv` (LoL)
-  - [ ] `vehicles.csv` 또는 `car data.csv` (중고차)
-  - [ ] `Mall_Customers.csv` (고객 세그먼테이션)
-- [ ] Google Drive에 `수업자료/datasets/` 폴더 생성
-- [ ] 5개 CSV 파일을 해당 폴더에 업로드
-- [ ] 학생들에게 폴더 공유 (보기 권한)
 
 ### 수업별 확인 사항
 
-- [ ] Colab에서 데이터 불러오기 코드가 정상 작동하는지 사전 테스트
-- [ ] OWID 코로나 데이터 URL이 아직 유효한지 확인 (학기 초 1회)
-- [ ] PyTorch / HuggingFace 라이브러리 버전 호환성 확인
+
 
 ---
-
+/*
 ## Google Drive 연동 기본 코드(Drive Mount Template)
 
 매 주차 실습 시작 시 아래 코드를 먼저 실행한다.
@@ -387,7 +359,7 @@ plt.rcParams['axes.unicode_minus'] = False
 
 print("환경 설정 완료")
 ```
-
+*/
 ---
 
 *본 가이드는 2026학년도 기준으로 작성되었다. URL이 변경되거나 데이터가 삭제될 수 있으므로, 학기 시작 전에 반드시 확인해야 한다.*

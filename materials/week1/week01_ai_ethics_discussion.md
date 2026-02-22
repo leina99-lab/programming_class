@@ -2,10 +2,7 @@
 
 # AI 시대의 코딩 윤리(Coding Ethics): "한 단계 더 들어가기"
 
-## 토론 수업(Discussion-Based Class) 강의안
-
 ---
-
 ## 0. 수업 정보(Class Information)
 
 | 항목(Item) | 내용(Description) |

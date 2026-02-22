@@ -6,7 +6,7 @@
 
 > **데이터 출처:** Our World in Data (https://github.com/owid/covid-19-data)
 > 1주차는 `pandas`를 아직 배우지 않았으므로, 리스트(list)와 딕셔너리(dict)로 직접 입력한 데이터를 사용한다.
-> 상세한 다운로드 방법은 별도 배포 자료 **"데이터셋 확보 가이드(Dataset Acquisition Guide)"**를 참고하라.
+> 상세한 다운로드 방법은 별도 배포 자료 **"데이터셋 확보 가이드**(Dataset Acquisition Guide)"를 참고하라.
 
 ---
 

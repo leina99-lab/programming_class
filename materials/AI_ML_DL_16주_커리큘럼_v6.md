@@ -14,14 +14,14 @@
 | 수업 시간(Class Hours) | 주 1회, 150분(3시간 연강) |
 | 도구(Tools) | Python, NumPy, Pandas, Scikit-learn, PyTorch, Matplotlib |
 | 환경(Environment) | Google Colab / Jupyter Notebook |
-| AI 사용 정책(AI Policy) | **과제·프로젝트:** AI 사용 허용 (프롬프트 + 검증 + 관찰 제출 필수) / **시험(중간·기말)** :AI 사용 금지 |
+| AI 사용 정책(AI Policy) | **과제·프로젝트:** AI 사용 허용 (프롬프트 + 검증 + 관찰 제출 필수) / **시험(중간·기말):** AI 사용 금지 |
 
 ---
 
 # 수업 시간 구성: PART별 차별화(Differentiated Time Structure)
 
 v5까지의 "이론 50분 → 따라하기 50분 → 응용 50분" 고정 포맷을 폐지한다.
-**"따라하기 50분"은 Shift+Enter를 반복하는 수동적 학습**(Passive Learning)이므로, PART의 성격에 따라 시간 배분을 달리한다.
+**"따라하기 50분"은 Shift+Enter를 반복하는 수동적 학습**(Passive Learning)**이므로**, PART의 성격에 따라 시간 배분을 달리한다.
 
 ## PART 1: 파이썬 기초 (1~3주) — 코딩 중심
 
@@ -37,13 +37,13 @@ v5까지의 "이론 50분 → 따라하기 50분 → 응용 50분" 고정 포맷
 | 휴식(Break) | 10분 | | |
 | 심화 + 연습문제(Advanced + Exercises) | 30분 | 정리 | 응용 문제 풀이 + 오답 분석 + Q&A |
 
-**핑퐁 코딩(Ping-Pong Coding)이란?**
+**핑퐁 코딩**(Ping-Pong Coding)**이란?**
 
 교수자가 한 단계를 시연하면(Ping), 학생이 그 즉시 변형 과제를 작성한다(Pong).
 예: 교수자가 `for`문으로 구구단을 보여주면 → 학생은 "별 찍기"를 스스로 작성한다.
 Shift+Enter를 50분간 누르는 것이 아니라, **"보고 → 바로 변형"을 짧은 주기로 반복**하는 것이다.
 
-**빈칸 채우기(Fill-in-the-Blank) 노트북:**
+**빈칸 채우기**(Fill-in-the-Blank) **노트북:**
 
 완성된 코드를 실행하는 것이 아니라, 핵심 부분이 `___`로 비어 있는 노트북을 제공한다.
 학생이 직접 채워야 실행된다. 이것이 능동적 학습(Active Learning)이다.
@@ -77,21 +77,21 @@ Shift+Enter를 50분간 누르는 것이 아니라, **"보고 → 바로 변형"
 
 # 주차별 활용 데이터 매핑(Weekly Dataset Mapping)
 
-각 주차의 실습에 사용하는 **실전 데이터셋(Real-World Dataset)**을 미리 정한다.
+각 주차의 실습에 사용하는 **실전 데이터셋**(Real-World Dataset)**을** 미리 정한다.
 학생들이 "교과서 예제"가 아닌 **뉴스에서 보던 실제 문제**를 다루게 한다.
 
 | 주차(Week) | PART | 활용 데이터(Dataset) | 출처(Source) |
 |---|---|---|---|
-| 1~3주 | 파이썬 기초 | **코로나19(COVID-19) 확진자 수** — 리스트, 딕셔너리, 함수 연습 | Our World in Data |
-| 4주 | 데이터 분석 | **뉴욕 에어비앤비(Airbnb NYC)** — NumPy, Pandas 핵심 | Kaggle AB_NYC_2019 |
-| 5주 | 데이터 시각화 | **뉴욕 에어비앤비(Airbnb NYC)** — EDA, 시각화, 탐색 | Kaggle AB_NYC_2019 |
-| 6주 | ML 기초 | **심부전증(Heart Failure) 예측** — 전처리, 교차 검증 | Kaggle Heart Failure |
-| 7주 | ML 기초 | **LoL(League of Legends) 승리 공식** — 분류, 평가 지표 | Kaggle LoL Ranked Games |
-| 9주 | ML 심화 | **중고 자동차(Used Car) 가격 예측** — 회귀, 앙상블 | Kaggle Used Cars |
-| 10주 | ML 심화 | **고객 세그먼테이션(Customer Segmentation)** — K-Means, PCA | Kaggle Mall Customers |
-| 11주 | DL 입문 | **MNIST 손글씨(Handwritten Digit)** — PyTorch 기초 | torchvision |
+| 1~3주 | 파이썬 기초 | **코로나19**(COVID-19) **확진자 수** — 리스트, 딕셔너리, 함수 연습 | Our World in Data |
+| 4주 | 데이터 분석 | **뉴욕 에어비앤비**(Airbnb NYC) — NumPy, Pandas 핵심 | Kaggle AB_NYC_2019 |
+| 5주 | 데이터 시각화 | **뉴욕 에어비앤비**(Airbnb NYC) — EDA, 시각화, 탐색 | Kaggle AB_NYC_2019 |
+| 6주 | ML 기초 | **심부전증**(Heart Failure) **예측** — 전처리, 교차 검증 | Kaggle Heart Failure |
+| 7주 | ML 기초 | **LoL**(League of Legends) **승리 공식** — 분류, 평가 지표 | Kaggle LoL Ranked Games |
+| 9주 | ML 심화 | **중고 자동차**(Used Car) **가격 예측** — 회귀, 앙상블 | Kaggle Used Cars |
+| 10주 | ML 심화 | **고객 세그먼테이션**(Customer Segmentation) — K-Means, PCA | Kaggle Mall Customers |
+| 11주 | DL 입문 | **MNIST 손글씨**(Handwritten Digit) — PyTorch 기초 | torchvision |
 | 12주 | DL CNN | **CIFAR-10 이미지 분류** — CNN 구현 | torchvision |
-| 13주 | DL RNN/NLP | **영화 리뷰 감성 분석(Sentiment Analysis)** — LSTM, Transformer | IMDB / HuggingFace |
+| 13주 | DL RNN/NLP | **영화 리뷰 감성 분석**(Sentiment Analysis) — LSTM, Transformer | IMDB / HuggingFace |
 | 14주 | DL 생성 | **MNIST 이미지 생성** — GAN, LLM API | torchvision |
 
 ---
@@ -119,6 +119,31 @@ Shift+Enter를 50분간 누르는 것이 아니라, **"보고 → 바로 변형"
 **학습 목표:** AI의 전체 그림을 이해하고, 파이썬의 기본 문법을 익힌다. AI 도구 사용의 윤리 원칙을 체득한다.
 
 **활용 데이터:** 코로나19(COVID-19) 확진자 수
+
+| 구간(Block) | 시간 | 내용(Content) |
+|---|---|---|
+| 개념 브리핑 (20분) | 20분 | **[도입] AI 시대의 코딩 윤리: "한 단계 더 들어가기" 토론 (25분)** |
+| | | ① 두 학생의 과제 비교 — 같은 AI, 다른 결과 (5분) |
+| | | ② AI 사용 3단계 모델: Level 0 → Level 1 → Level 2 (5분) |
+| | | ③ 5개 사례 조별 토론 — 허용/경고/부정행위 판정 (10분) |
+| | | ④ 학기 평가 원칙 공지 (5분) |
+| | | **[이론] AI 개론 + 파이썬 소개 (추가 시간 활용)** |
+| | | ⑤ AI → ML → DL의 관계와 역사 |
+| | | ⑥ 왜 파이썬(Python)인가? — AI/데이터 분석의 표준 언어 |
+| | | ⑦ Google Colab 환경 설정 및 Notebook 사용법 |
+| 핑퐁 코딩 (30분) | 30분 | **파이썬 기본 문법** |
+| | | Ping①: 변수(Variable)와 자료형(Data Type) 시연 → Pong: 코로나 확진자 수를 변수에 저장 |
+| | | Ping②: 숫자형(Numeric) 연산 시연 → Pong: 확진자 증감률 계산 |
+| | | Ping③: 문자열(String) 인덱싱/슬라이싱 시연 → Pong: 날짜 문자열 파싱 |
+| | | Ping④: f-string 포맷팅 시연 → Pong: 확진자 수를 천 단위 쉼표로 출력 |
+| 휴식 | 10분 | |
+| 도전 실습 (50분) | 50분 | ① 코로나19 일별 확진자 데이터를 변수에 저장하고, 최댓값/평균 계산 |
+| | | ② 문자열 처리 응용: 날짜 형식 변환, 지역명 파싱 |
+| | | ③ f-string으로 분석 결과 보고서 형식 출력 |
+| 휴식 | 10분 | |
+| 심화 + 연습문제 (30분) | 30분 | ① 응용 문제 풀이 + 오답 분석 |
+| | | ② 연습문제(10문항) — 프롬프트 + 검증 + 관찰 형식으로 제출 |
+| | | ③ Q&A |
 
 **시각화 자료:** AI/ML/DL 포함 관계 벤 다이어그램(Venn Diagram), 파이썬 자료형 계층도
 
@@ -590,8 +615,8 @@ Shift+Enter를 50분간 누르는 것이 아니라, **"보고 → 바로 변형"
 | 항목(Item) | v5 (기존) | v6 (변경) |
 |---|---|---|
 | 수업 시간 구조 | 전 주차 동일 (이론 50 + 따라하기 50 + 응용 50) | **PART별 차별화** — 파이썬(20+30+50+30), 데이터/ML(40+20+50+20), DL(50+50+30) |
-| "따라하기 50분" | Shift+Enter 반복 수동 학습 | **핑퐁 코딩(Ping-Pong Coding)**: 시연 → 즉시 변형, 짧은 주기 반복 |
-| 실습 노트북 | 완성된 코드 제공 | **빈칸 채우기(Fill-in-the-Blank)** + **오류 수정(Debug)** 노트북 |
+| "따라하기 50분" | Shift+Enter 반복 수동 학습 | **핑퐁 코딩**(Ping-Pong Coding): 시연 → 즉시 변형, 짧은 주기 반복 |
+| 실습 노트북 | 완성된 코드 제공 | **빈칸 채우기**(Fill-in-the-Blank) + **오류 수정**(Debug) 노트북 |
 | 1주차 도입 | AI 개론만 진행 | **AI 윤리 토론 수업 추가** — "한 단계 더 들어가기" 원칙 체득 |
 | 실습 데이터 | 범용 예제 데이터 | **실전 데이터 매핑** — 코로나19, 에어비앤비, LoL, 중고차 등 |
 | AI 사용 정책 | 명시적 정책 없음 | **과제·프로젝트:** 3단계 평가 규칙(허용/경고/부정행위) + 프롬프트 제출 필수 / **시험:** AI 전면 금지 |
@@ -643,8 +668,8 @@ Shift+Enter를 50분간 누르는 것이 아니라, **"보고 → 바로 변형"
 
 1. 매 수업은 150분 연강(3시간)으로 진행하며, 교시 사이 10분 휴식을 둔다.
 2. **PART별로 시간 배분을 달리한다** — 파이썬은 코딩 중심, DL은 이론 강화.
-3. **핑퐁 코딩(Ping-Pong Coding):** 교수자 시연 후 학생이 즉시 변형하는 능동적 실습을 기본으로 한다.
-4. **빈칸 채우기(Fill-in-the-Blank) 노트북:** 핵심 부분이 비어 있는 노트북을 제공하여 능동적 학습을 유도한다.
+3. **핑퐁 코딩**(Ping-Pong Coding)**:** 교수자 시연 후 학생이 즉시 변형하는 능동적 실습을 기본으로 한다.
+4. **빈칸 채우기**(Fill-in-the-Blank) **노트북:** 핵심 부분이 비어 있는 노트북을 제공하여 능동적 학습을 유도한다.
 5. 모든 실습은 Google Colab 환경에서 진행하며, 코드와 결과를 함께 제출한다.
 6. 매주 연습문제(10문항 이상)와 해답(Solution)을 제공한다.
 7. 이론은 시각화(Visualization)를 통해 직관적으로 이해할 수 있도록 구성한다.
